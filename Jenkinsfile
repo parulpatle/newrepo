@@ -19,7 +19,7 @@ pipeline {
             steps{
                 bat '''cd newrepo
                 echo >newfile.txt
-                echo this is new file>>newfile.txt
+                echo this is new file>>newfile2.txt
                 git add .
                 git config --global user.email "parulpatle9702@gmail.com"
                 git config --global user.name "parulpatle"
